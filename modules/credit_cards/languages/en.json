@@ -1,0 +1,14 @@
+{
+    "CREDIT_CARDS": {
+        "MODULE_DETAILS": {
+            "SINGULAR_NAME": "Credit Card",
+            "PLURAL_NAME": "Credit Cards"
+        },
+        "FIELDS": {
+            "ACCOUNTNUMBER": "Account Number",
+            "CUSTOMERNAME": "Customer Name",
+            "EMPLOYEEMANAGEMENTSYSTEMS": "Employee Management Systems",
+            "SELECTBANK": "Select Bank"
+        }
+    }
+}

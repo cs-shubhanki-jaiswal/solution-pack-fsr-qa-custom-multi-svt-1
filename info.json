@@ -1,10 +1,10 @@
 {
-    "name": "solution-fsr-qa-custom-multi-svt-1",
+    "name": "solution-pack-fsr-qa-custom-multi-svt-1",
     "version": "1.0.0",
     "fsrMinCompatibility": "7.2.0",
     "type": "solutionpack",
     "local": true,
-    "label": "solution-fsr-qa-custom-multi-svt-1",
+    "label": "solution-pack-fsr-qa-custom-multi-svt-1",
     "dependencies": [],
     "prerequisite": null,
     "publisher": "Fortinet",

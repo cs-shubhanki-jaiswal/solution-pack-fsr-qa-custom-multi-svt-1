@@ -8,28 +8,8 @@
         "description": "Execute code snippets as part of your Playbooks.",
         "publisher": "Fortinet",
         "operation_roles": [],
-        "configurations": [
-            {
-                "id": 2,
-                "config_id": "e88c3166-6083-4cf5-9983-ef7ff23020f3",
-                "status": 1,
-                "name": "demo",
-                "default": true,
-                "config": {
-                    "allow_imports": true
-                },
-                "remote_status": [],
-                "health_status": [],
-                "connector": 9,
-                "agent": "a8effae7b8634380d4bd008abac7a602",
-                "teams": []
-            }
-        ],
+        "configurations": [],
         "dataImports": [],
-        "install_mode": "rpm",
-        "ingestionPlaybooks": {
-            "collections": [],
-            "exported_tags": []
-        }
+        "install_mode": "rpm"
     }
 ]

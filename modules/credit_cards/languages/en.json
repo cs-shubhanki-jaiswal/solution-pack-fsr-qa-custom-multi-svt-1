@@ -7,8 +7,8 @@
         "FIELDS": {
             "ACCOUNTNUMBER": "Account Number",
             "CUSTOMERNAME": "Customer Name",
-            "EMPLOYEEMANAGEMENTSYSTEMS": "Employee Management Systems",
-            "SELECTBANK": "Select Bank"
+            "SELECTBANK": "Select Bank",
+            "EMPLOYEEMANAGEMENTSYSTEMS": "Employee Management Systems"
         }
     }
 }

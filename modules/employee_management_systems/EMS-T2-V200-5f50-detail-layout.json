@@ -61,13 +61,31 @@
                                                         "limit": 10
                                                     },
                                                     "editorType": "html",
-                                                    "sectionText": "<p>Hi team,<\/p>\n<p>FLOWER TAB FOR EMS-T1-v200 template:<\/p>\n<p>&nbsp;<\/p>\n<p>Adding richtextwidget for EMS on 761 Custom SP \"solution-pack-fsr-qa-custom-multi-svt-1\" v2.0.0&nbsp;<\/p>"
+                                                    "sectionText": "<p>Hi team,<\/p>\n<p>&nbsp;<\/p>\n<p>Flower Tab: Adding richtextwidget for EMS on 761 Custom SP \"solution-pack-fsr-qa-custom-multi-svt-1\" v2.0.0&nbsp;<\/p>"
                                                 },
                                                 "visible": true
                                             },
                                             "icon": "fa fa-cog",
                                             "show": true,
                                             "visible": true
+                                        },
+                                        {
+                                            "title": "Lily",
+                                            "active": 0,
+                                            "widget": {
+                                                "type": "sectionHeader",
+                                                "config": {
+                                                    "wid": "5032234f-d8e1-426b-b926-3018af9995ab",
+                                                    "query": {
+                                                        "filters": [],
+                                                        "sort": [],
+                                                        "limit": 10
+                                                    },
+                                                    "editorType": "html",
+                                                    "sectionText": "<p>Hi team,<\/p>\n<p>&nbsp;<\/p>\n<p>Lily TAB: Adding richtextwidget for EMS on 761 Custom SP \"solution-pack-fsr-qa-custom-multi-svt-1\" v2.0.0&nbsp;<\/p>"
+                                                }
+                                            },
+                                            "icon": "fa fa-home"
                                         }
                                     ],
                                     "wid": "4a4dd946-4a3e-4b5d-853d-c9b845eb1147"
@@ -100,9 +118,8 @@
     },
     "module": "employee_management_systems",
     "filters": [],
-    "isDefault": true,
+    "isDefault": false,
     "viewOptions": "detail",
-    "name": "EMS-T1-V200",
-    "uuid": "modules-employee_management_systems-detail",
-    "newUuid": "a16055e8-97f0-42ff-a276-124696637472"
+    "name": "EMS-T2-V200",
+    "uuid": "1661394c-5f50-439a-983b-455a7a92bcfd"
 }

@@ -77,5 +77,11 @@
         "actionButtons": [],
         "metadata": []
     },
-    "uuid": "modules-credit_cards-detail"
+    "module": "credit_cards",
+    "filters": [],
+    "isDefault": true,
+    "viewOptions": "detail",
+    "name": "Base Template",
+    "uuid": "modules-credit_cards-detail",
+    "newUuid": "7a2f92da-f109-4867-ba35-1800fa9bcc9a"
 }

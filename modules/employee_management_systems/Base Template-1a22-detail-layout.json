@@ -54,14 +54,14 @@
                                             "widget": {
                                                 "type": "sectionHeader",
                                                 "config": {
-                                                    "wid": "4eadd5c2-7bc5-404c-9b4d-ad63c43c284d",
+                                                    "wid": "90d879a4-4889-4338-893c-ea98405dd800",
                                                     "query": {
                                                         "filters": [],
                                                         "sort": [],
                                                         "limit": 10
                                                     },
                                                     "editorType": "html",
-                                                    "sectionText": "<p>Hi team,<\/p>\n<p>FLOWER TAB FOR EMS-T1-v200 template:<\/p>\n<p>&nbsp;<\/p>\n<p>Adding richtextwidget for EMS on 761 Custom SP \"solution-pack-fsr-qa-custom-multi-svt-1\" v2.0.0&nbsp;<\/p>"
+                                                    "sectionText": "<p>Hi team,<\/p>\n<p>&nbsp;<\/p>\n<p>Adding richtextwidget for EMS on 761 Custom SP \"solution-pack-fsr-qa-custom-multi-svt-1\" v2.0.0<\/p>"
                                                 },
                                                 "visible": true
                                             },
@@ -70,20 +70,35 @@
                                             "visible": true
                                         }
                                     ],
-                                    "wid": "4a4dd946-4a3e-4b5d-853d-c9b845eb1147"
+                                    "wid": "4a4dd946-4a3e-4b5d-853d-c9b845eb1147",
+                                    "isPrimaryTab": true
                                 }
                             },
                             {
-                                "type": "sectionHeader",
+                                "type": "grid",
                                 "config": {
-                                    "wid": "99da23f1-5aee-42e9-81d8-78384d1afbf6",
+                                    "wid": "d81ed0d8-5fe7-491e-bf76-0546a8bb938c",
+                                    "module": "employee_management_systems",
+                                    "columns": [
+                                        "favoriteColor",
+                                        "employeeSalary",
+                                        "contact",
+                                        "employeeName",
+                                        "id",
+                                        "Env3EmployeeDummyFieldTest"
+                                    ],
+                                    "expandableCol": [],
+                                    "relationshipField": [],
+                                    "checkboxStatus": false,
+                                    "editableFields": false,
+                                    "actionButtons": [],
                                     "query": {
-                                        "filters": [],
                                         "sort": [],
-                                        "limit": 10
+                                        "limit": 30,
+                                        "logic": "AND",
+                                        "filters": []
                                     },
-                                    "editorType": "html",
-                                    "sectionText": "<p>762 ENV3 Employee T4 again testing<\/p>"
+                                    "title": "761 Grid : dummy field test"
                                 }
                             }
                         ],
@@ -100,9 +115,8 @@
     },
     "module": "employee_management_systems",
     "filters": [],
-    "isDefault": true,
+    "isDefault": false,
     "viewOptions": "detail",
-    "name": "EMS-T1-V200",
-    "uuid": "modules-employee_management_systems-detail",
-    "newUuid": "a16055e8-97f0-42ff-a276-124696637472"
+    "name": "Base Template",
+    "uuid": "0c317b43-1a22-4bda-b886-6aa586b18bbc"
 }

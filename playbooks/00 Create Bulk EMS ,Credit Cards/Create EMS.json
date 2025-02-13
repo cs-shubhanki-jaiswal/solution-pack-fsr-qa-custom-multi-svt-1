@@ -13,7 +13,7 @@
         "createDateTimeStamp"
     ],
     "synchronous": false,
-    "collection": "\/api\/3\/workflow_collections\/78c16425-5923-4bc3-b9d7-d45b3d0ea386",
+    "collection": "\/api\/3\/workflow_collections\/1b2ef862-7105-4847-a06a-ed15e86773a6",
     "versions": [],
     "triggerStep": "\/api\/3\/workflow_steps\/782f9850-1ad2-4e2d-8282-301c9a6b72fc",
     "steps": [

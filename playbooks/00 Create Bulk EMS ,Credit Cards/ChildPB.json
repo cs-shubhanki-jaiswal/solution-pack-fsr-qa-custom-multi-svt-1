@@ -14,7 +14,7 @@
         "time_delta"
     ],
     "synchronous": false,
-    "collection": "\/api\/3\/workflow_collections\/78c16425-5923-4bc3-b9d7-d45b3d0ea386",
+    "collection": "\/api\/3\/workflow_collections\/1b2ef862-7105-4847-a06a-ed15e86773a6",
     "versions": [],
     "triggerStep": "\/api\/3\/workflow_steps\/7c4200a2-354d-4a7a-b5f8-48e39371f750",
     "steps": [

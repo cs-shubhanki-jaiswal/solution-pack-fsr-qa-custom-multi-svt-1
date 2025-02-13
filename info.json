@@ -14,7 +14,7 @@
     "supportInfo": null,
     "iconLarge": null,
     "postInstallConfig": null,
-    "date": "2025-02-13T08:29:39+00:00",
+    "date": "2025-02-13T11:40:47+00:00",
     "contents": {
         "picklistNames": [
             {
@@ -25,6 +25,10 @@
             }
         ],
         "modules": {
+            "alerts": {
+                "name": "Alerts",
+                "apiName": "alerts"
+            },
             "credit_cards": {
                 "name": "Credit Cards",
                 "apiName": "credit_cards"
@@ -35,30 +39,33 @@
             }
         },
         "viewTemplates": {
-            "credit_cards": {
-                "name": "Credit Cards",
-                "apiName": "credit_cards",
+            "alerts": {
+                "name": "Alerts",
+                "apiName": "alerts",
                 "views": [
                     "list",
                     "detail",
                     "form"
                 ]
             },
+            "credit_cards": {
+                "name": "Credit Cards",
+                "apiName": "credit_cards",
+                "views": [
+                    "form",
+                    "detail",
+                    "list"
+                ]
+            },
             "employee_management_systems": {
                 "name": "Employee Management Systems",
                 "apiName": "employee_management_systems",
                 "views": [
-                    "list",
                     "detail",
-                    "form"
+                    "form",
+                    "list"
                 ]
             }
-        },
-        "views": {
-            "navigation": [
-                "Credit Cards",
-                "Employee Management Systems"
-            ]
         },
         "roles": [
             {
@@ -91,14 +98,19 @@
         ],
         "recordSets": [
             {
+                "name": "Alerts",
+                "apiName": "alerts",
+                "count": 1
+            },
+            {
                 "name": "Credit Cards",
                 "apiName": "credit_cards",
-                "count": 7
+                "count": 6
             },
             {
                 "name": "Employee Management Systems",
                 "apiName": "employee_management_systems",
-                "count": 57
+                "count": 14
             }
         ]
     }

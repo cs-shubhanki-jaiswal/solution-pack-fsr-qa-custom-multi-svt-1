@@ -104,42 +104,6 @@
         },
         {
             "@type": "AttributeMetadata",
-            "type": "employee_management_systems",
-            "name": "employeeManagementSystems",
-            "length": null,
-            "formType": "manyToMany",
-            "dataSource": {
-                "model": "employee_management_systems"
-            },
-            "searchable": false,
-            "peerReplicable": true,
-            "system": false,
-            "encrypted": false,
-            "gridColumn": false,
-            "collection": true,
-            "inversedField": "creditCard",
-            "ownsRelationship": false,
-            "validation": null,
-            "bulkAction": null,
-            "dataSourceFilters": null,
-            "defaultValue": null,
-            "tooltip": null,
-            "visibility": true,
-            "htmlEscape": false,
-            "orphanRemoval": null,
-            "readable": true,
-            "writeable": true,
-            "identifier": null,
-            "unique": false,
-            "recommend": false,
-            "skipSerialization": false,
-            "displayName": "{{Employee Management Systems}}",
-            "descriptions": {
-                "singular": "Employee Management Systems"
-            }
-        },
-        {
-            "@type": "AttributeMetadata",
             "type": "picklists",
             "name": "selectBank",
             "length": null,
@@ -220,6 +184,42 @@
             "displayName": "{{ selectBank }}",
             "descriptions": {
                 "singular": "Select Bank"
+            }
+        },
+        {
+            "@type": "AttributeMetadata",
+            "type": "employee_management_systems",
+            "name": "employeeManagementSystems",
+            "length": null,
+            "formType": "manyToMany",
+            "dataSource": {
+                "model": "employee_management_systems"
+            },
+            "searchable": false,
+            "peerReplicable": true,
+            "system": false,
+            "encrypted": false,
+            "gridColumn": false,
+            "collection": true,
+            "inversedField": "creditCard",
+            "ownsRelationship": false,
+            "validation": null,
+            "bulkAction": null,
+            "dataSourceFilters": null,
+            "defaultValue": null,
+            "tooltip": null,
+            "visibility": true,
+            "htmlEscape": false,
+            "orphanRemoval": null,
+            "readable": true,
+            "writeable": true,
+            "identifier": null,
+            "unique": false,
+            "recommend": false,
+            "skipSerialization": false,
+            "displayName": "{{Employee Management Systems}}",
+            "descriptions": {
+                "singular": "Employee Management Systems"
             }
         }
     ],
